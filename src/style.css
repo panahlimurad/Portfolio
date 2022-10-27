@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+}
+
+/* sidebar start */
+
+.sidebar {
+    background-color: #fff;
+    width: 23vw;
+    height: 100vw;
+    position: fixed;
+    top: 0;
+    padding: 0;
+}
+
+.sidebar img {
+    width: 43%;
+    margin: 20px 20px 20px;
+    border-radius: 4px;    
+} 
+
+.sidebar h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar p {
+    margin-left: 20px;
+    opacity: 0.4;
+    font-weight: bold;
+}
+
+.side-menu {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.side-menu li {
+    padding: 10px 10px 10px 0px;
+}
+
+.side-menu li:hover {
+    background-color: rgba(17, 2, 2, 0.603);
+}
+
+.side-menu a {
+    font-size: 20px;
+    margin-left: 20px;
+    color: #009688;
+    text-decoration: none;
+}
+
+.side-menu a i {
+    margin-right: 15px;
+}
+
+.social-bar {
+    display: flex;
+    margin-left: 15px;
+}
+
+.social-bar i {
+    margin: 5px;
+    cursor: pointer;
+}
+
+.social-bar i:hover {
+    opacity: 0.7;
+}
+
+/* sidebar */
+
+/* header start */
+
+main {
+    margin-left: 23vw;
+    background-color: #f1f1f1;
+}
+
+header {
+    margin-left: 23vw;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+header ul {
+    display: flex;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+
+header ul li {
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header li:nth-child(1){
+    background-color: black;
+    color: white;
+}
+
+header li:nth-child(1):hover{
+    background-color: rgba(19, 4, 4, 0.205);
+    color: black;
+}
+
+header li i {
+    margin-right: 15px;
+}
+
+header li:hover {
+    background-color: rgba(19, 4, 4, 0.205);
+}
+
+.line {
+    background-color: rgba(19, 4, 4, 0.205);
+    height: 6px;
+    margin-top: 10px;
+}
+
+/* header end */
+
+/* main start */
+
+.container {
+    background-color: #f1f1f1;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    opacity: 0.6;
+}
+
+.pagination {
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  .about {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+
+  .about-text {
+    margin-left: 40px;
+  }
+
+  .about-text h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .about-text p {
+    font-size: 15px;
+  }
+
+  .skills {
+    margin-left: 40px;
+    margin-right: 45px;
+    margin-top: 50px;
+  }
+
+  .skills h5 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .skills p {
+    font-size: 20px;
+  }
+
+  .scale {
+    background-color: rgb(158,158,158);
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+
+  .scale div {
+    height: 35px;
+    background-color: rgb(97,97,97);
+    width: 95%;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .scale-second {
+    background-color: rgb(158,158,158);
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+
+  .scale-second div {
+    height: 35px;
+    background-color: rgb(97,97,97);
+    width: 85%;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+  }
+  .scale-three {
+    background-color: rgb(158,158,158);
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+
+  .scale-three div {
+    height: 35px;
+    background-color: rgb(97,97,97);
+    width: 75%;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+  }
